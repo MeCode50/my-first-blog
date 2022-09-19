@@ -1,0 +1,6 @@
+<!-- we need to tell the about.html to inherit from base.html -->
+{% extends 'blog/base.html'%}
+<!-- we need to tell django where the block element in the about.html will sit in the base.html-->
+{% block Content %}
+    <h1>About page</h1>
+{% endblock Content%}
